@@ -1,7 +1,7 @@
 // ==========================================
 // CONFIGURACIÓN
 // ==========================================
-const API_KEY = "c32894a1ae114a68853d955dfed5018b";
+const API_KEY = "e5f52f502f4743538e0a9096b8bae6ba";
 const BASE_URL = "https://api.ipgeolocation.io/ipgeo";
 
 // Lista de IPs para probar
