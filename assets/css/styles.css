@@ -1,12 +1,44 @@
 body {
-    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    background: #0f172a;
+    color: white;
     min-height: 100vh;
 }
 
-.card {
+/* Cards estilo dashboard */
+.card-dashboard {
+    background: #1e293b;
     border-radius: 15px;
+    padding: 20px;
+    transition: 0.3s;
+    height: 100%;
 }
 
-.dato {
-    padding: 10px;
+.card-dashboard:hover {
+    transform: translateY(-5px);
+    background: #334155;
+}
+
+/* Iconos */
+.icono {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #38bdf8;
+}
+
+/* Texto */
+.titulo {
+    font-weight: bold;
+    font-size: 14px;
+    color: #94a3b8;
+}
+
+.valor {
+    font-size: 16px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
 }
